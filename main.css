@@ -1,0 +1,79 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 50px;
+       background: url(mrcet.jpg);
+    }
+
+    .todo-container {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 350px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    #taskInput {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px 0 0 4px;
+      outline: none;
+    }
+
+    #addBtn {
+      padding: 10px 15px;
+      background: #28a745;
+      color: white;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+    }
+
+    #addBtn:hover {
+      background: #218838;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: #f9f9f9;
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 8px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    li.completed {
+      text-decoration: line-through;
+      color: #888;
+    }
+
+    .delete-btn {
+      background: none;
+      border: none;
+      color: red;
+      font-size: 16px;
+      cursor: pointer;
+     
+    }
